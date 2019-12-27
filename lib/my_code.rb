@@ -28,6 +28,12 @@ end
 def reduce_to_all_true(array)
 
 	array.reduce { |n| !!n }
-	# array.reduce { |n| }
+
+
+end
+
+def reduce_to_all_true(array)
+
+	array.reduce.any? { |n| false }
 
 end
