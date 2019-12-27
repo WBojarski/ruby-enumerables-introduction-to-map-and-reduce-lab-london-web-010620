@@ -27,13 +27,15 @@ end
 
 def reduce_to_all_true(array)
 
-	array.reduce { |n| !!n }
+	counter = 0 
 
+	while counter < array.length do
+		return false if array[counter] == false
+
+		counter += 1
+	end
+
+	return true
 
 end
 
-def reduce_to_all_true(array)
-
-	array.reduce.any? { |n| false }
-
-end
