@@ -25,7 +25,7 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 
-def reduce_to_all_truthy(array)
+def reduce_to_all_true(array)
 
 	array.map { |n| !!n }
 
