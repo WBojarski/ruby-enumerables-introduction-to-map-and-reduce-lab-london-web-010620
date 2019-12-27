@@ -39,3 +39,13 @@ def reduce_to_all_true(array)
 
 end
 
+def reduce_to_any_true(array)
+
+	counter = 0
+
+	while counter < array.length do
+		return true if array[counter] == true
+	end
+	return false
+
+end
