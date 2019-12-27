@@ -20,8 +20,6 @@ end
 
 def reduce_to_total(array, starting_point = 0)
 
-	array.reduce(starting_point) {|sum, n| sum + n}
+	array.reduce(starting_point) {|sum, n| sum += n}
 
 end
-
-
