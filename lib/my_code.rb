@@ -27,6 +27,6 @@ end
 
 def reduce_to_all_true(array)
 
-	array.map { |n| !!n }
+	# array.map { |n| !!n }
 
 end
